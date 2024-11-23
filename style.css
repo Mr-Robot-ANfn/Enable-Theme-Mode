@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    text-align: center;
+    padding: 10px;
+}
+
+.dm{
+    border: 1px solid silver;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    padding: 2px;
+    background-color: rgb(247, 238, 238);
+    display: flex;
+    justify-content: flex-start; /* Initial position of the image */
+    align-items: center;
+    transition: justify-content 0.5s ease; /* Smooth transition for image movement */
+
+}
+
+.main{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 8vw;
+  margin-top: 5vh;
+  margin-bottom: 50px;
+}
+
+
+
+.dark-mode{
+    background-color: black;
+    color: white;
+
+}
+
+img:hover{
+    scale: 1.2;
+}
+
+.dm:hover{
+    border: 1px solid rgb(40, 39, 39);
+}
